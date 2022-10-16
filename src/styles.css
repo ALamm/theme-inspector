@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.title {
+  margin-bottom: 20px;
+  display: block;
+}
+.container {
+  margin-top: 20px;
+}
+.row {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+.left-column {
+  background-color: rgb(126, 126, 223);
+  height: max-content;
+}
+
+.right-column {
+  background-color: rgb(184, 239, 184);
+  height: max-content;
+}
